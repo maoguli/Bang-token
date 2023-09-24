@@ -1,0 +1,8 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  cn.elegent.token.secret.GateWaySecretManager,\
+  cn.elegent.token.configs.GateWayAsymmetriConfig,\
+  cn.elegent.token.config.SymmetricSecretConfig,\
+  cn.elegent.token.configs.TokenGateWayConfig,\
+  cn.elegent.token.filters.TokenFilter,\
+  cn.elegent.token.service.impl.AsymmetricTokenServiceImpl,\
+  cn.elegent.token.service.impl.SymmetricTokenServiceImpl

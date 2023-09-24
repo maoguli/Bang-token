@@ -1,0 +1,10 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  cn.elegent.token.config.SymmetricSecretConfig,\
+  cn.elegent.token.refresh.configs.TokenManagerConfig,\
+  cn.elegent.token.refresh.configs.ServiceAsymmetricSecretConfig,\
+  cn.elegent.token.refresh.controller.RefreshController,\
+  cn.elegent.token.refresh.secret.ServiceSecretManager,\
+  cn.elegent.token.refresh.service.impl.CustomServiceImpl,\
+  cn.elegent.token.refresh.service.impl.TokenResultErrorServiceImpl,\
+  cn.elegent.token.refresh.service.impl.TokenServiceAsymmetricImpl,\
+  cn.elegent.token.refresh.service.impl.TokenServiceSymmetricImpl

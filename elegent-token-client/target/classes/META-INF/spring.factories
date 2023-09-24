@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  cn.elegent.token.interceptors.ElegentTokenInterceptor,\
+  cn.elegent.token.config.InterceptorConfig
